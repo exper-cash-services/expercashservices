@@ -71,7 +71,6 @@
     "connect-mongo": "^5.0.0",
     "csurf": "^1.11.0",
     "express-brute": "^1.0.1",
-    "express-brute-mongo": "1.0.1",
     "socket.io": "^4.7.2",
     "redis": "^4.6.7",
     "node-cron": "^3.0.2",
