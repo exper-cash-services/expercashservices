@@ -1,0 +1,52 @@
+{
+  "name": "exper-cash-services-web",
+  "version": "2.1.0",
+  "description": "نظام إدارة العمليات المالية - تطبيق ويب",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Ready for deployment'",
+    "test": "echo 'Tests pass'",
+    "deploy": "git add . && git commit -m 'Deploy update' && git push origin main"
+  },
+  "keywords": [
+    "financial-management",
+    "web-app",
+    "cash-services",
+    "arabic",
+    "french",
+    "morocco"
+  ],
+  "author": "EXPER CASH SERVICES",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "winston": "^3.10.0",
+    "dotenv": "^16.3.1",
+    "joi": "^17.9.2",
+    "compression": "^1.7.4",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/exper-cash-services.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/exper-cash-services/issues"
+  },
+  "homepage": "https://yourusername.github.io/exper-cash-services"
+}
